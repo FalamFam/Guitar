@@ -26,7 +26,7 @@ public class ChordListAdapter extends ArrayAdapter<ChordItem> {
 
     private Context mContext;
     private int mResource;
-    private List<ChordItem> mPhoneItemList;
+    private List<ChordItem> chordItemList;
 
     public ChordListAdapter(@NonNull Context context,
                             int resource,
@@ -34,7 +34,7 @@ public class ChordListAdapter extends ArrayAdapter<ChordItem> {
         super(context, resource, phoneItemList);
         this.mContext = context;
         this.mResource = resource;
-        this.mPhoneItemList = phoneItemList;
+        this.chordItemList = phoneItemList;
     }
 
     @NonNull
@@ -47,7 +47,7 @@ public class ChordListAdapter extends ArrayAdapter<ChordItem> {
         TextView keyTextView = view.findViewById(R.id.key_text_view);
         ImageView imageView = view.findViewById(R.id.image_view);
 
-        ChordItem chordItem = mPhoneItemList.get(position);
+        ChordItem chordItem = chordItemList.get(position);
         String chord_name = chordItem.chord_name;
         String key_chord = chordItem.key_chord;
         String image = chordItem.image;

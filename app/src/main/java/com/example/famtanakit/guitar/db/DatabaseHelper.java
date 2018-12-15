@@ -34,74 +34,74 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL(SQL_CREATE_TABLE_PHONE);
 
         ContentValues cv = new ContentValues();
-        cv.put(COL_TITLE, "Chord");
-        cv.put(COL_NUMBER, "C");
+        cv.put(COL_TITLE, "C");
+        cv.put(COL_NUMBER, "C-E-G");
         cv.put(COL_IMAGE, "c.png");
         db.insert(TABLE_NAME, null, cv);
 
         cv = new ContentValues();
-        cv.put(COL_TITLE, "Chord");
-        cv.put(COL_NUMBER, "C#");
+        cv.put(COL_TITLE, "C#");
+        cv.put(COL_NUMBER, "C#-F-G#");
         cv.put(COL_IMAGE, "c#.png");
         db.insert(TABLE_NAME, null, cv);
 
         cv = new ContentValues();
-        cv.put(COL_TITLE, "Chord");
-        cv.put(COL_NUMBER, "D");
+        cv.put(COL_TITLE, "D");
+        cv.put(COL_NUMBER, "D-F#-A");
         cv.put(COL_IMAGE, "d.png");
         db.insert(TABLE_NAME, null, cv);
 
         cv = new ContentValues();
-        cv.put(COL_TITLE, "Chord");
-        cv.put(COL_NUMBER, "Eb");
+        cv.put(COL_TITLE, "Eb");
+        cv.put(COL_NUMBER, "Eb-G-B");
         cv.put(COL_IMAGE, "eb.png");
         db.insert(TABLE_NAME, null, cv);
 
         cv = new ContentValues();
-        cv.put(COL_TITLE, "Chord");
-        cv.put(COL_NUMBER, "E");
+        cv.put(COL_TITLE, "E");
+        cv.put(COL_NUMBER, "E-G#-B");
         cv.put(COL_IMAGE, "e.png");
         db.insert(TABLE_NAME, null, cv);
 
         cv = new ContentValues();
-        cv.put(COL_TITLE, "Chord");
-        cv.put(COL_NUMBER, "F");
+        cv.put(COL_TITLE, "F");
+        cv.put(COL_NUMBER, "F-A-C");
         cv.put(COL_IMAGE, "f.png");
         db.insert(TABLE_NAME, null, cv);
 
         cv = new ContentValues();
-        cv.put(COL_TITLE, "Chord");
-        cv.put(COL_NUMBER, "F#");
+        cv.put(COL_TITLE, "F#");
+        cv.put(COL_NUMBER, "F#-A#-C#");
         cv.put(COL_IMAGE, "f#.png");
         db.insert(TABLE_NAME, null, cv);
 
         cv = new ContentValues();
-        cv.put(COL_TITLE, "Chord");
-        cv.put(COL_NUMBER, "G");
+        cv.put(COL_TITLE, "G");
+        cv.put(COL_NUMBER, "G-B-D");
         cv.put(COL_IMAGE, "g.png");
         db.insert(TABLE_NAME, null, cv);
 
         cv = new ContentValues();
-        cv.put(COL_TITLE, "Chord");
-        cv.put(COL_NUMBER, "Ab");
+        cv.put(COL_TITLE, "Ab");
+        cv.put(COL_NUMBER, "Ab-C-Eb");
         cv.put(COL_IMAGE, "ab.png");
         db.insert(TABLE_NAME, null, cv);
 
         cv = new ContentValues();
-        cv.put(COL_TITLE, "Chord");
-        cv.put(COL_NUMBER, "A");
+        cv.put(COL_TITLE, "A");
+        cv.put(COL_NUMBER, "A-C#-E");
         cv.put(COL_IMAGE, "a.png");
         db.insert(TABLE_NAME, null, cv);
 
         cv = new ContentValues();
-        cv.put(COL_TITLE, "Chord");
-        cv.put(COL_NUMBER, "Bb");
+        cv.put(COL_TITLE, "Bb");
+        cv.put(COL_NUMBER, "Bb-D-F");
         cv.put(COL_IMAGE, "bb.png");
         db.insert(TABLE_NAME, null, cv);
 
         cv = new ContentValues();
-        cv.put(COL_TITLE, "Chord");
-        cv.put(COL_NUMBER, "B");
+        cv.put(COL_TITLE, "B");
+        cv.put(COL_NUMBER, "B-D#-F#");
         cv.put(COL_IMAGE, "b.png");
         db.insert(TABLE_NAME, null, cv);
     }

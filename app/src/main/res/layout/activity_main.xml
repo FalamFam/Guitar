@@ -9,7 +9,7 @@
     <ListView
         android:id="@+id/result_list_view"
         android:layout_width="353dp"
-        android:layout_height="784dp"
+        android:layout_height="738dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="272dp"
         android:layout_marginRight="16dp"

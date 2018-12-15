@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/chord_edit_view"
-        android:layout_width="236dp"
-        android:layout_height="266dp"
+        android:layout_width="307dp"
+        android:layout_height="343dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -18,31 +18,42 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393"
+        app:layout_constraintVertical_bias="0.776"
         app:srcCompat="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/chord_text"
-        android:layout_width="wrap_content"
+        android:layout_width="314dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
+        android:layout_marginBottom="48dp"
+
+        android:gravity="center"
         android:text="TextView"
-        android:textSize="18sp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:fontFamily="@font/anton"
         app:layout_constraintBottom_toTopOf="@+id/chord_edit_view"
         app:layout_constraintEnd_toEndOf="@+id/chord_edit_view"
+        app:layout_constraintHorizontal_bias="0.352"
         app:layout_constraintStart_toStartOf="@+id/chord_edit_view" />
 
     <TextView
         android:id="@+id/name_chord_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="314dp"
+        android:layout_height="31dp"
         android:layout_marginTop="8dp"
+        android:background="@color/colorAccent"
+        android:gravity="center_vertical|center"
         android:text="TextView"
+        android:textColor="@android:color/background_light"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/chord_edit_view"
-        app:layout_constraintStart_toStartOf="@+id/chord_edit_view"
-        app:layout_constraintTop_toBottomOf="@+id/chord_edit_view"/>
+        app:layout_constraintEnd_toEndOf="@+id/chord_text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/chord_text"
+        app:layout_constraintTop_toBottomOf="@+id/chord_text" />
 
 </android.support.constraint.ConstraintLayout>
